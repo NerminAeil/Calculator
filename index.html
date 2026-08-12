@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator Website</title>
+    <link rel="stylesheet" href="Calculator.css" />
+  </head>
+  <body>
+    <div id="calculator">
+      <input id="display" readonly />
+      <div id="keys">
+        <button onclick="deleteLast()" class="first-line">→</button>
+        <button onclick="clearDisplay()" class="first-line">C</button>
+        <button onclick="start()" class="first-line">ON</button>
+        <button onclick="appendToDisplay('%')" class="first-line">%</button>
+        <button onclick="appendToDisplay('7')" class="second-line">7</button>
+        <button onclick="appendToDisplay('8')" class="second-line">8</button>
+        <button onclick="appendToDisplay('9')" class="second-line">9</button>
+        <button onclick="appendToDisplay('÷')" class="second-line">÷</button>
+        <button onclick="appendToDisplay('4')" class="third-line">4</button>
+        <button onclick="appendToDisplay('5')" class="third-line">5</button>
+        <button onclick="appendToDisplay('6')" class="third-line">6</button>
+        <button onclick="appendToDisplay('×')" class="third-line">×</button>
+        <button onclick="appendToDisplay(1)" class="fourth-line">1</button>
+        <button onclick="appendToDisplay('2')" class="fourth-line">2</button>
+        <button onclick="appendToDisplay('3')" class="fourth-line">3</button>
+        <button onclick="appendToDisplay('-')" class="fourth-line">-</button>
+        <button onclick="appendToDisplay('0')" class="fifth-line">0</button>
+        <button onclick="appendToDisplay('.')" class="fifth-line">.</button>
+        <button onclick="calculate()" class="fifth-line">=</button>
+        <button onclick="appendToDisplay('+')" class="fifth-line">+</button>
+      </div>
+    </div>
+    <script src="Calculator.js"></script>
+  </body>
+</html>
