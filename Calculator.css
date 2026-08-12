@@ -72,4 +72,8 @@ button:hover {
 button:active {
   background-color: rgb(174, 84, 99);
 }
+@media screen and(max-width=600px)
+{
+  .keys{
+    margin-bottom:0px;
 }
