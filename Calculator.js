@@ -1,6 +1,6 @@
 const display = document.getElementById("display");
 function deleteLast() {
-  if ((display.value = "Error")) {
+  if ((display.value === "Error")) {
     display.value = "";
   }
   display.value = display.value.slice(0, -1);
