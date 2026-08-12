@@ -72,7 +72,7 @@ button:hover {
 button:active {
   background-color: rgb(174, 84, 99);
 }
-@media screen and(max-width=600px)
+@media screen and (max-width=600px)
 {
  #calculator{
    max-height:200px;
